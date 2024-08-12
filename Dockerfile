@@ -1,5 +1,5 @@
 FROM python:3.9
-RUN git clone -b Kazu-Userbot https://github.com/projectrp24/loezsky-Userbot /home/Kazuuserbot/ \
+RUN git clone -b Kazu-Userbot https://github.com/projectrp24/Kazu-Userbot /home/Kazuuserbot/ \
     && chmod 777 /home/Kazuuserbot \
     && mkdir /home/Kazuuserbot/bin/
 
